@@ -1,0 +1,41 @@
+.posts {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 7rem;
+    margin-bottom: 20px;
+    width:100%
+  }
+
+.post {
+    background-color: lightgreen;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 0.4rem; */
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    width:75%;
+  }
+  
+  .content {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .likes {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0;
+  }
+
+  

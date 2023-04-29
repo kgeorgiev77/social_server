@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "d30856d33b887343127a0d0f7ab45587",
+      "name": "as"
+    }
+  ],
+  "socialPosts": [],
+  "sessions": [
+    {
+      "id": "46d946a56f402351ae431940521cbc14",
+      "userId": "d30856d33b887343127a0d0f7ab45587"
+    }
+  ]
+}

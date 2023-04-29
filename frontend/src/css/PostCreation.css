@@ -1,0 +1,25 @@
+.create-post {
+    position: fixed;
+    top: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1rem;
+    /* background-color: lime; */
+}
+
+.create-post * {
+    margin: 0.4rem;
+
+}
+
+textarea {
+    width: 20%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.4rem;
+}

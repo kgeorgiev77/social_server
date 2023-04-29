@@ -1,0 +1,115 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  min-height: 59rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0a331c;
+  display: flex;
+  width: 15%;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  margin-right: 2rem;
+  z-index: 1;
+}
+
+.App-header ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 1.5rem;
+  left: 0;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.App-header ul * {
+  margin-top: 3rem;
+}
+
+a {
+  color: rgb(135, 255, 135);
+  text-decoration: none;
+}
+
+.delete {
+  background-color:rgb(173, 61, 61);
+}
+
+.signing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%
+}
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.welcome {
+  margin-top: 3rem;
+  font-size: 800;
+}
+
+img {
+  margin-top: 5rem;
+  height: 35rem;
+  width: 35rem;
+}
+
+button {
+  background-color: #4d90fe;
+  color: #fff;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error {
+  color: red;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+}
+
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
+
